@@ -1,0 +1,44 @@
+/* combobox */
+.comboboxWraper
+{
+    float: left;
+    /*margin-left: 9px;*/
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+/*Button*/
+.ui-combobox .ui-button-icon-only
+{
+    width: 20px;
+    height: 20px;
+    border-left: 0px;
+    border-radius: 0px;
+    background: url("../Images/SelectGrayArrow.jpg") no-repeat;
+    /* float: right; */
+}
+
+/*Input*/
+.ui-combobox .ui-corner-all, .ui-combobox .ui-corner-bottom, .ui-combobox .ui-corner-left, .ui-corner-bl
+{
+    border-radius: 0px;
+    background: white;
+    border-right: 0px;
+    width: 83px;
+    height: 22px;
+    font-size: 11px;
+    font-family: Arial;
+    float: left;
+}
+
+.ui-combobox .ui-state-hover .ui-icon, body .ui-state-focus .ui-icon
+{
+    background: none;
+}
+
+
+
+.ui-combobox-menu.ui-menu .ui-menu-item
+{
+    font-size: 12px;
+}
